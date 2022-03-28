@@ -11,7 +11,6 @@
   inputs.src-pager-master.ref   = "master";
   inputs.src-pager-master.owner = "~reesmichael1";
   inputs.src-pager-master.repo  = "nim-pager";
-  inputs.src-pager-master.dir   = "";
   inputs.src-pager-master.type  = "sourcehut";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
