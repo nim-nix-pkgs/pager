@@ -33,11 +33,38 @@
         "type": "indirect"
       }
     },
+    "pager-master": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-pager-master": "src-pager-master"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1650750508,
+        "narHash": "sha256-0HueJr6I2Lxytovb+gH1NsBBc3KfmI++3yXC8NojT9o=",
+        "owner": "nim-nix-pkgs",
+        "repo": "pager",
+        "rev": "6c25fedb54bb45234774fa9a04ace60201688fe6",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "pager",
+        "type": "github"
+      }
+    },
     "root": {
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs",
-        "src-pager-master": "src-pager-master"
+        "pager-master": "pager-master"
       }
     },
     "src-pager-master": {
